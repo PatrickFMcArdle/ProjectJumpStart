@@ -1,0 +1,3 @@
+The staging area is meant to house a sas library that is used in the ETL process. 
+For example, this library will hold a copy of the data obtained via an emailed excel spreadsheet
+as a sas dataset that can then be used for further processing within sas.

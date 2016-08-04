@@ -1,0 +1,3 @@
+The intention of this directory is to store the raw data relevant to the project.  
+For example, a project often obtains data from collaborators in many different forms and via many different mechanisms.
+If a collaborator emails data in an excel spreadsheet, this directory can be used to manage those data.

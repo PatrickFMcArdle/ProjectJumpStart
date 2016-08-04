@@ -1,0 +1,2 @@
+The intention of this directory is to be a central library for sas datasets that hold the cleaned and transformed project data.
+This library holds all relevant data objects (datasets, formats etc) that are used throughout the project.
