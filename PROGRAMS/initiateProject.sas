@@ -32,11 +32,11 @@ Tools -> Options -> General -> Automatically run Autoexec process flow when proj
 %let RAWDATAdir 	= &PROJECTdir\DATA\RAW DATA;
 
 * Assign libraries;
-libname PROJ 		"&PROJECTdir\DATA\DATA WAREHOUSE";
-libname PROJsa		"&PROJECTdir\DATA\STAGING AREA";
+libname DW 		"&PROJECTdir\DATA\DATA WAREHOUSE";
+libname SA		"&PROJECTdir\DATA\STAGING AREA";
 
 * Search for formats stored in the main project library;
-options fmtsearch=(PROJ);
+options fmtsearch=(DW.frmts DW.infrmts);
 
 * Compile Macros;
 options mautosource sasautos=("&MACROdir");
